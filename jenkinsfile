@@ -3,13 +3,14 @@ pipeline {
     stages {
         stage("Start") {
             steps {
-                sh "echo Start >> tmp.txt"
+                bat "echo Start >> tmp.txt"
             }
         }
         stage("End") {
             steps {
-                sh "echo End >> tmp.txt"
+                bat "echo End >> tmp.txt"
             }
         }
     }
+
 }
