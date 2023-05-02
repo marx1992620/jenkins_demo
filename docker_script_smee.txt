@@ -1,0 +1,4 @@
+docker pull deltaprojects/smee-client
+docker run --name smee_io --rm -p 6000:3000 deltaprojects/smee-client -u https://smee.io/MShyiTaG1H7dRckp
+#docker run --name smee-io --rm -p 3000:3000 deltaprojects/smee-client -u https://smee.io/MShyiTaG1H7dRckp -t http://localhost:8099/github-webhook/
+smee --url https://your-smee.io/channel
